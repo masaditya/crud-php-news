@@ -1,0 +1,11 @@
+.bg-company-red {
+  background-color: #44bd32;
+}
+.white{
+  color:white;
+  text-decoration: none;
+}
+.headnav {
+  width:100%;
+  position:fixed;
+}
