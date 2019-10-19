@@ -18,16 +18,16 @@
 	<?php
 	if(isset($_GET['pesan'])){
 		if($_GET['pesan'] == "gagal"){
-			echo "Login gagal! username dan password salah!";
+			echo "Login failed! username and password doesn't match!";
 			echo '
 			<div class="alert alert-danger" role="alert">
-				<b>Login Gagal!</b>
+				<b>Login Failed!</b>
 			</div>
 			';
 		}else if($_GET['pesan'] == "logout"){
-			echo "Anda telah berhasil logout";
+			echo "You have been logout";
 		}else if($_GET['pesan'] == "belum_login"){
-			echo "Anda harus login untuk mengakses halaman admin";
+			echo "You must login to access admin page";
 		}
 	}
 	?>
